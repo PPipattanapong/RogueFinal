@@ -23,7 +23,13 @@ public class MonsterHP : MonoBehaviour
         currentHp -= damageFromPlayer;
         if (currentHp <= 0)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            Debug.Log("1 point earn");
+
+            Player player = GameObject.FindFirstObjectByType<Player>();
+            player.AddScore();
+
+            gameObject.SetActive(false);
         }
     }
 }

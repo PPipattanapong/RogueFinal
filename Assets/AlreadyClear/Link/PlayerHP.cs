@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerHP : MonoBehaviour
 {
+    public Vector3 respawnPoint;
 
     public static PlayerHP Instance;
     void Awake()
@@ -20,6 +21,7 @@ public class PlayerHP : MonoBehaviour
     void Start()
     {
         currentHp = maxHp;
+        respawnPoint = Vector3.zero;
     }
 
     // Update is called once per frame
@@ -33,7 +35,18 @@ public class PlayerHP : MonoBehaviour
         currentHp -= damageFromMonster;
         if (currentHp <= 0)
         {
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
+            transform.position = respawnPoint;
+            currentHp = maxHp;
         }
+    }
+    public void increaseHp()
+    {
+
+        if (currentHp < maxHp)
+        {
+            currentHp += 1;
+        }
+
     }
 }
