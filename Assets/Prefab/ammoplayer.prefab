@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2339186326303812601}
   - component: {fileID: -257585475079661030}
   m_Layer: 0
-  m_Name: ammoplayer
+  m_Name: Ammoplayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,5 +138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   worldMousePosition: {x: 0, y: 0, z: 0}
   direction: {x: 0, y: 0, z: 0}
+  rg2d: {fileID: 0}
   bulletSpeed: 5
   bulletAttack: 5
