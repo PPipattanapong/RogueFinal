@@ -1,0 +1,1641 @@
+fileFormatVersion: 2
+guid: 2a734e4000b893342b6a24df6ba62f12
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CultistPack_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 464
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565a3cc2f9b7d6b4bb0b14c5fa077698
+      internalID: -1726608938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 465
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8457a4b48bd2e40977e948dbbf846b
+      internalID: -1510533857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_2
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 462
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bebc446c8f603144983840301c0592a
+      internalID: -60765857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 418
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d0839ba09c88f4cbfa44bb4436e493
+      internalID: 913875353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 418
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb218484bcd861b4f9058e7c3b1faffd
+      internalID: -1713224915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 417
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e9fb77ce7cad4f97472442619c804
+      internalID: -1313002530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 417
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da790d482bc1ad94c8fd078d719021e3
+      internalID: -630682240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 419
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f37b744f951b1d4bbc24991898f1fe7
+      internalID: -212689169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 417
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cd139c1f0efe54391c8e2f897c0092
+      internalID: -1678529934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 421
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cdbbb440b08a349bf66580a9aedaeb
+      internalID: -725630123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 417
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d2372143595bb41886c911900e91f1
+      internalID: 416576607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 417
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54951b296cf7ad841b339e5ffe001452
+      internalID: 67155405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 368
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365de6ed1febe4841a330b6003f21270
+      internalID: 1562470243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 368
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4565ad53270d5274c803e04163974fc4
+      internalID: -1241555524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 368
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d94500a5b4c49448f48a617e307ac5
+      internalID: 1934176988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 371
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ec590c7dd346049b174ebe29aabddc
+      internalID: 1418471253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 369
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63518736688d57b48ad1913dfca55748
+      internalID: -118621569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 369
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cac8938d634984db98a4ec76343187
+      internalID: -1295921610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_18
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 369
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183370f41c36bc94881baf43574fcb65
+      internalID: 9902513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 367
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c191e0984623d634aaea9d0f9cd6fb1c
+      internalID: 1201649939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_20
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 367
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb33bce19de5474479cf5c972f72544c
+      internalID: -1435548797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 305
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ed730696d4937478aebffbdd36d1f3
+      internalID: 10937141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 305
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621808dc9d6ea3e448a747e83cbbd559
+      internalID: 1140253376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_23
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 305
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5da92f41a6c0449bbefa4831cec465
+      internalID: 149934492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 304
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f9aec6fac17f54386c8bef9890e31f
+      internalID: -1563154931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 312
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2e98877e37354498146ff14f0bf72d
+      internalID: 1010882527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_26
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 321
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25855a66a30c1c04abb16a4241623735
+      internalID: 906664566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_27
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 322
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4b095476731284c907c89c568c6c88
+      internalID: 276292744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 255
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a2f72db356fbc4db9d6f911809f6d3
+      internalID: 1016997497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 253
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d1a93e199e5fb428e28c022dc0b438
+      internalID: 146479053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 246
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b1797f781910040ab4a5fbe8991d7a
+      internalID: 1395496946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 246
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7821a3c3d8e7c74790a7e8491d1ef44
+      internalID: -1425462446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 246
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4939a789ac29dd448ef9f3b61b3fc38
+      internalID: 1395416930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_33
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 249
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afacdcdfc632abf4599cb71140744ea6
+      internalID: -2127164109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_34
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 242
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f8777657c043e499dc11b7a0c3ec14
+      internalID: -1133538646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_35
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 244
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b379a2d514c9454428a23a1875929104
+      internalID: 931831555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_36
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 244
+        width: 46
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40075a5b250977a47a46bb21ac7a858a
+      internalID: 610220991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 202
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ba0946b18c52740a0b90087f1dbafd
+      internalID: 763894628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_38
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 202
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a246f811d97984f9c63f43d386f5a9
+      internalID: 764720435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 197
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe22b0d67d5b284eb59420e411c2f74
+      internalID: 1560213357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 199
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f86c9e4da9c545418f22a6d511ad2ad
+      internalID: 1288318850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_41
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 197
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231b4921561571b40bf70706a2f63b5a
+      internalID: 1576049757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_42
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 197
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73001d58d59f6b748b1d487a120c121b
+      internalID: -1122991025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 199
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a625b93698751f48ae01705daf11556
+      internalID: -1844950681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 196
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b684aa5f5fa6bfb4f9638c279e66185c
+      internalID: -764663808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_45
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 194
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c2915f3fbb4a141b8e8c6b760345e1
+      internalID: 681179788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_46
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 194
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf50afef495b97479e34e3d0f97be00
+      internalID: 302177915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 134
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c804709ded9551548a2b1d08d881723c
+      internalID: -1318785465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_48
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 134
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f4aaedefe557045ae2febb702b937a
+      internalID: 695244506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_49
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 134
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86bf098136c13140ada0aa9f68a90e4
+      internalID: 1671624612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_50
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 136
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee6a3f36c5173f44997294e55a992d0
+      internalID: -1092694405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_51
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 133
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd0f84cdae7d524b8c3608e740b08ca
+      internalID: -590542769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_52
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 135
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5bd00805c49bb409a85571afb7a448
+      internalID: -1519286023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_53
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 134
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4a627c9e8387b46b6476042d56634b
+      internalID: 843793596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_54
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 134
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa3a1c78c780341a63c82d4083f0d5
+      internalID: -1524762958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_55
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 134
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9a759fa7532d0449f424d69703d3cf
+      internalID: -1512856587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_56
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 75
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92ad1b825241164bbf8402b1ddc37ff
+      internalID: 754475695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 94
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec4c6ba4cd1084c8eb7931f7768394
+      internalID: -1789831125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_58
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 75
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d564bf955d077954ebff1f777ede40a4
+      internalID: 295559101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_59
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 76
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc1fe5f0093b604a862d1b1b2926719
+      internalID: 135325412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4326a8eeea1a434a8dc26df3dd30253
+      internalID: 273749485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_61
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9d7b526fee0524fa111443ffaecb49
+      internalID: 1539711589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90790863e734d64e89ebe67ae1751f0
+      internalID: 1842846790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_63
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f121037c67f0134a916432a331a7d9b
+      internalID: 1336892813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_64
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 9
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f38466bda473443929ddf53f9f17e2
+      internalID: 1557186320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_65
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 9
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe818345a81b44099977c5045a7efd
+      internalID: -1009107389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_66
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 7
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6053594712ea0fc428eee323590a4776
+      internalID: -317415624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_67
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 7
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3dd4c51ecd1c643b606b8bb646a8d6
+      internalID: -477848986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_68
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 6
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9879f0b30d7073f4c84756aedf00bb9e
+      internalID: 52801780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CultistPack_51: -590542769
+      CultistPack_59: 135325412
+      CultistPack_48: 695244506
+      CultistPack_53: 843793596
+      CultistPack_18: 9902513
+      CultistPack_29: 146479053
+      CultistPack_20: -1435548797
+      CultistPack_33: -2127164109
+      CultistPack_0: -1726608938
+      CultistPack_64: 1557186320
+      CultistPack_45: 681179788
+      CultistPack_13: -1241555524
+      CultistPack_16: -118621569
+      CultistPack_9: -725630123
+      CultistPack_19: 1201649939
+      CultistPack_67: -477848986
+      CultistPack_37: 763894628
+      CultistPack_28: 1016997497
+      CultistPack_66: -317415624
+      CultistPack_49: 1671624612
+      CultistPack_32: 1395416930
+      CultistPack_34: -1133538646
+      CultistPack_21: 10937141
+      CultistPack_7: -212689169
+      CultistPack_31: -1425462446
+      CultistPack_39: 1560213357
+      CultistPack_56: 754475695
+      CultistPack_11: 67155405
+      CultistPack_3: 913875353
+      CultistPack_10: 416576607
+      CultistPack_38: 764720435
+      CultistPack_15: 1418471253
+      CultistPack_8: -1678529934
+      CultistPack_42: -1122991025
+      CultistPack_14: 1934176988
+      CultistPack_2: -60765857
+      CultistPack_25: 1010882527
+      CultistPack_61: 1539711589
+      CultistPack_17: -1295921610
+      CultistPack_68: 52801780
+      CultistPack_60: 273749485
+      CultistPack_50: -1092694405
+      CultistPack_41: 1576049757
+      CultistPack_22: 1140253376
+      CultistPack_40: 1288318850
+      CultistPack_58: 295559101
+      CultistPack_12: 1562470243
+      CultistPack_63: 1336892813
+      CultistPack_52: -1519286023
+      CultistPack_6: -630682240
+      CultistPack_46: 302177915
+      CultistPack_26: 906664566
+      CultistPack_5: -1313002530
+      CultistPack_35: 931831555
+      CultistPack_36: 610220991
+      CultistPack_47: -1318785465
+      CultistPack_55: -1512856587
+      CultistPack_43: -1844950681
+      CultistPack_54: -1524762958
+      CultistPack_24: -1563154931
+      CultistPack_27: 276292744
+      CultistPack_57: -1789831125
+      CultistPack_62: 1842846790
+      CultistPack_65: -1009107389
+      CultistPack_4: -1713224915
+      CultistPack_44: -764663808
+      CultistPack_30: 1395496946
+      CultistPack_23: 149934492
+      CultistPack_1: -1510533857
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
