@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2339186326303812601}
   - component: {fileID: -257585475079661030}
   m_Layer: 0
-  m_Name: Ammoplayer
+  m_Name: ammoplayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 48c6005b2a4ced54f826ee5a66d31529, type: 3}
+  m_Sprite: {fileID: 744849928, guid: 8b9a94c89131e2841924e5afa2c18792, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -136,8 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c37ac6766268db4b8bbe5447f888fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  worldMousePosition: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
   rg2d: {fileID: 0}
   bulletSpeed: 5
   bulletAttack: 5
