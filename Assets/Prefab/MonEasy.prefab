@@ -528,7 +528,7 @@ MonoBehaviour:
   currentHp: 0
   maxHp: 10
   healthBar: {fileID: 718611378739237792}
-  itemdrop: {fileID: 2784677953313858193, guid: 7a504487e4d4f0e4088a80d85c16d42b, type: 3}
+  itemdrop: {fileID: 8595406125618043616, guid: 94bb07df9a745c841a5f73f0eb2083bd, type: 3}
   droprateItem1: 5
 --- !u!1 &2304566841186471065
 GameObject:

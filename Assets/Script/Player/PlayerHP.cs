@@ -51,4 +51,13 @@ public class PlayerHP : MonoBehaviour
         }
 
     }
+    public void deHp()
+    {
+
+        if (currentHp < maxHp)
+        {
+            currentHp -= 25;
+        }
+
+    }
 }
