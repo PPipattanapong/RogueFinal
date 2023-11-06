@@ -140,7 +140,9 @@ MonoBehaviour:
   maxHp: 40
   healthBar: {fileID: 3837730199174877645}
   itemdrop: {fileID: 6999867304603671682, guid: 6f122634e1eae2c44b640ba2cc1452e3, type: 3}
+  itemdrop2: {fileID: 8803542797310104419, guid: 36d634abecfa2aa40a113702841d0878, type: 3}
   droprateItem1: 100
+  droprateItem2: 5
 --- !u!1 &2975041954294146563
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,8 +9,11 @@ public class MonsterHP : MonoBehaviour
     [SerializeField] FloatingHealthBar healthBar;
 
     public GameObject itemdrop;
+    public GameObject itemdrop2;
 
     public int droprateItem1 = 25;
+    public int droprateItem2 = 5;
+
 
     private void Awake()
     {
@@ -37,6 +40,10 @@ public class MonsterHP : MonoBehaviour
             if (Random.Range(0, 100) < droprateItem1)
             {
                 Instantiate(itemdrop, transform.position, transform.rotation);
+            }
+            if (Random.Range(0, 100) < droprateItem2)
+            {
+                Instantiate(itemdrop2, transform.position, transform.rotation);
             }
 
             //Destroy(gameObject);
