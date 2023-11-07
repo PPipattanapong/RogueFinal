@@ -9,8 +9,21 @@ public class Goal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("End Game");
-            SceneManager.LoadScene(5);
+            Debug.Log("Next Level");
+
+            // Check if the current scene is "Scene1" before loading "Scene3"
+            if (SceneManager.GetActiveScene().name == "Level1")
+            {
+                SceneManager.LoadScene("Level2");
+            }
+            if (SceneManager.GetActiveScene().name == "Level2")
+            {
+                SceneManager.LoadScene("Level3");
+            }
+            if (SceneManager.GetActiveScene().name == "Level3")
+            {
+                SceneManager.LoadScene("WinScene");
+            }
         }
     }
 }

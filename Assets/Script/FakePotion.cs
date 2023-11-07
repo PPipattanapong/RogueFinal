@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FakePotion : MonoBehaviour
 {
-    [SerializeField] private GameObject Itemskill;
     // Start is called before the first frame update
     void Start()
     {

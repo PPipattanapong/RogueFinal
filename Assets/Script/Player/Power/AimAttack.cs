@@ -6,8 +6,8 @@ public class AimAttack : MonoBehaviour
     public GameObject aim;
     public GameObject bullet;
     public GameObject firepoint;
-    public float reloadTime = 2f; // Adjust the reload time as needed
-    public int shotsBeforeReload = 10; // Number of shots before reloading
+    public float reloadTime = 2f;
+    public int shotsBeforeReload = 10;
 
     private int shotCount = 0;
     private bool isReloading = false;
@@ -31,10 +31,14 @@ public class AimAttack : MonoBehaviour
         {
             Instantiate(bullet, firepoint.transform.position, aim.transform.rotation);
             shotCount++;
+            //Debug.Log("Shoot");
+
 
             if (shotCount >= shotsBeforeReload)
             {
                 StartCoroutine(Reload());
+                //Debug.Log("Reload");
+
             }
         }
     }

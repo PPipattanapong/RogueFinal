@@ -34,6 +34,10 @@ public class MonsterHP : MonoBehaviour
     public void MonsterTakeDamage(int damageFromPlayer)
     {
         currentHp -= damageFromPlayer;
+
+        //Colorchange changepls = GetComponent<Colorchange>();
+        //changepls.PlayEffect();
+
         healthBar.UpdateHealthBar(currentHp, maxHp);
         if (currentHp <= 0)
         {
@@ -53,6 +57,16 @@ public class MonsterHP : MonoBehaviour
             player.AddScore();
 
             gameObject.SetActive(false);
+
         }
     }
-}
+    /*void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == ("Bullet"))
+        {
+            Colorchange changepls = GetComponent<Colorchange>();
+            changepls.PlayEffect();
+        }
+    }*/
+
+    }

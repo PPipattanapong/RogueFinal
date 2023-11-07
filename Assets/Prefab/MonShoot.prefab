@@ -244,7 +244,7 @@ MonoBehaviour:
   healthBar: {fileID: 3896389806411825966}
   itemdrop: {fileID: 8595406125618043616, guid: 94bb07df9a745c841a5f73f0eb2083bd, type: 3}
   itemdrop2: {fileID: 2601125074549614593, guid: 12fa906bc3d91e24d9fe37f8bfd924ef, type: 3}
-  droprateItem1: 10
+  droprateItem1: 20
   droprateItem2: 7
 --- !u!1 &3896389806411825952
 GameObject:
