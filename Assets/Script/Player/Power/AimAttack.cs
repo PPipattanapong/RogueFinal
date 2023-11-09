@@ -12,11 +12,6 @@ public class AimAttack : MonoBehaviour
     private int shotCount = 0;
     private bool isReloading = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -27,18 +22,23 @@ public class AimAttack : MonoBehaviour
 
         aim.transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        if (Input.GetMouseButtonDown(0) && !isReloading)
+        if (mousePos.x >= screenPoint.x)
+        {
+            aim.SetActive(true); // Show the aim when on the right side
+        }
+        else
+        {
+            aim.SetActive(false); // Hide the aim when on the left side
+        }
+
+        if (Input.GetMouseButtonDown(0) && !isReloading && mousePos.x >= screenPoint.x)
         {
             Instantiate(bullet, firepoint.transform.position, aim.transform.rotation);
             shotCount++;
-            //Debug.Log("Shoot");
-
 
             if (shotCount >= shotsBeforeReload)
             {
                 StartCoroutine(Reload());
-                //Debug.Log("Reload");
-
             }
         }
     }
