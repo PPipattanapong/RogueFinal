@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHP : MonoBehaviour
 {
+    [SerializeField] private GameObject Skill1
+        ;
+    [SerializeField] private GameObject Skill2;
+
     public Vector3 respawnPoint;
 
     public static PlayerHP Instance;
@@ -39,7 +43,10 @@ public class PlayerHP : MonoBehaviour
             //gameObject.SetActive(false);
             //transform.position = respawnPoint;
             //currentHp = maxHp;
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(5);
+            Skill1.SetActive(false);
+            Skill2.SetActive(false);
+
         }
     }
     public void increaseHp()
