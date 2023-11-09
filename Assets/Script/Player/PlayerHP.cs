@@ -43,7 +43,7 @@ public class PlayerHP : MonoBehaviour
             //gameObject.SetActive(false);
             //transform.position = respawnPoint;
             //currentHp = maxHp;
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(6);
             Skill1.SetActive(false);
             Skill2.SetActive(false);
 

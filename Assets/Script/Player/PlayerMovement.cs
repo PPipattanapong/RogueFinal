@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rg2d;
 
     public float countdownDash = 0;
-    public float dashCooldown = 2.0f; // Cooldown after dash (2 seconds)
+    public float dashCooldown = 1.0f; // Cooldown after dash (1 second)
     public bool isDashing = false;
 
     void Start()
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             // Dash is not active, check for input to activate dash
-            if (Input.GetKeyDown(KeyCode.LeftShift) && dashCooldown >= 2.0f)
+            if (Input.GetKeyDown(KeyCode.LeftShift) && dashCooldown >= 1.0f)
             {
                 isDashing = true;
                 countdownDash = 0;
@@ -51,7 +51,7 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Increase the cooldown timer even if not dashing
-            if (dashCooldown < 2.0f)
+            if (dashCooldown < 1.0f)
             {
                 dashCooldown += Time.deltaTime;
             }
