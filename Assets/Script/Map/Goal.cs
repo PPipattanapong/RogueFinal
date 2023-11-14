@@ -18,7 +18,7 @@ public class Goal : MonoBehaviour
             }
             if (SceneManager.GetActiveScene().name == "Level2")
             {
-                SceneManager.LoadScene("WinScene");
+                SceneManager.LoadScene("Level3");
             }
             if (SceneManager.GetActiveScene().name == "Level3")
             {

@@ -22,16 +22,16 @@ public class AimAttack : MonoBehaviour
 
         aim.transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        if (mousePos.x >= screenPoint.x)
+        /*if (mousePos.x >= screenPoint.x)
         {
             aim.SetActive(true); // Show the aim when on the right side
         }
         else
         {
             aim.SetActive(false); // Hide the aim when on the left side
-        }
+        }*/
 
-        if (Input.GetMouseButtonDown(0) && !isReloading && mousePos.x >= screenPoint.x)
+        if (Input.GetMouseButtonDown(0) && !isReloading /*&& mousePos.x >= screenPoint.x*/)
         {
             Instantiate(bullet, firepoint.transform.position, aim.transform.rotation);
             shotCount++;

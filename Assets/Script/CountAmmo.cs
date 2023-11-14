@@ -23,7 +23,7 @@ public class CountAmmo : MonoBehaviour
     void Update()
     {
         // Check if the mouse position is on the right side of the screen
-        if (Input.GetMouseButtonDown(0) && !isReloading && Input.mousePosition.x > Screen.width / 2)
+        if (Input.GetMouseButtonDown(0) && !isReloading /*&& Input.mousePosition.x > Screen.width / 2*/)
         {
             if (count > 0)
             {
