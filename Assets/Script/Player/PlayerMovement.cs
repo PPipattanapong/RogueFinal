@@ -1,62 +1,80 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float movementSpeed = 5;
-    public float defaultMovementSpeed;
-    public Rigidbody2D rg2d;
+    [SerializeField] private float movementSpeed = 5f;
+    [SerializeField] private float defaultMovementSpeed;
+    [SerializeField] private Rigidbody2D rg2d;
+    [SerializeField] private float dashCooldown = 1.0f; 
 
-    public float countdownDash = 0;
-    public float dashCooldown = 1.0f; // Cooldown after dash (1 second)
-    public bool isDashing = false;
+    private float countdownDash = 0f;
+    private bool isDashing = false;
 
-    void Start()
+    private void Start()
+    {
+        Initialize();
+    }
+
+    private void Update()
+    {
+        UpdateDashTimers();
+        UpdateDashState();
+        HandleMovementInput();
+    }
+
+    private void Initialize()
     {
         defaultMovementSpeed = movementSpeed;
         rg2d = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    private void UpdateDashTimers()
     {
         countdownDash += Time.deltaTime;
+        dashCooldown = Mathf.Clamp(dashCooldown + Time.deltaTime, 0f, 1.0f);
+    }
 
+    private void UpdateDashState()
+    {
         if (isDashing)
         {
-            // Dash is active, reduce dash duration
             countdownDash -= Time.deltaTime;
 
             if (countdownDash <= 0)
             {
-                // Dash duration is over, disable dash
                 isDashing = false;
                 countdownDash = 0;
             }
         }
         else
         {
-            // Dash is not active, check for input to activate dash
             if (Input.GetKeyDown(KeyCode.LeftShift) && dashCooldown >= 1.0f)
             {
-                isDashing = true;
-                countdownDash = 0;
-                movementSpeed = 20; // Set the dash speed
-                dashCooldown = 0;  // Reset the cooldown timer
+                ActivateDash();
             }
 
             if (countdownDash > 0.2f)
             {
-                movementSpeed = defaultMovementSpeed;
-            }
-
-            // Increase the cooldown timer even if not dashing
-            if (dashCooldown < 1.0f)
-            {
-                dashCooldown += Time.deltaTime;
+                ResetMovementSpeed();
             }
         }
+    }
 
+    private void HandleMovementInput()
+    {
         rg2d.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * movementSpeed;
+    }
+
+    private void ActivateDash()
+    {
+        isDashing = true;
+        countdownDash = 0;
+        movementSpeed = 20; 
+        dashCooldown = 0;  
+    }
+
+    private void ResetMovementSpeed()
+    {
+        movementSpeed = defaultMovementSpeed;
     }
 }

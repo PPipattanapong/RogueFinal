@@ -10,7 +10,7 @@ public class MenuScript : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public void ExitGame(string sceneName)
+    public void ExitGame()
     {
         Application.Quit();
     }

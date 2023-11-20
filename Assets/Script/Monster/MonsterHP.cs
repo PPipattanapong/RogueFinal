@@ -1,72 +1,63 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterHP : MonoBehaviour
 {
     [SerializeField] private float currentHp;
     [SerializeField] private float maxHp;
-    [SerializeField] FloatingHealthBar healthBar;
-
-    public GameObject itemdrop;
-    public GameObject itemdrop2;
-
-    public int droprateItem1 = 25;
-    public int droprateItem2 = 5;
-
+    [SerializeField] private FloatingHealthBar healthBar;
+    [SerializeField] private GameObject itemdrop;
+    [SerializeField] private GameObject itemdrop2;
+    [SerializeField] private int droprateItem1 = 25;
+    [SerializeField] private int droprateItem2 = 5;
 
     private void Awake()
     {
-        healthBar = GetComponentInChildren<FloatingHealthBar>(); 
+        healthBar = GetComponentInChildren<FloatingHealthBar>();
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
+    {
+        InitializeHealth();
+    }
+
+    private void Update()
+    {
+        // No update logic for now
+    }
+
+    public void MonsterTakeDamage(int damageFromPlayer)
+    {
+        currentHp -= damageFromPlayer;
+        healthBar.UpdateHealthBar(currentHp, maxHp);
+
+        if (currentHp <= 0)
+        {
+            HandleDeath();
+        }
+    }
+
+    private void InitializeHealth()
     {
         currentHp = maxHp;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void HandleDeath()
     {
-
-    }
-    public void MonsterTakeDamage(int damageFromPlayer)
-    {
-        currentHp -= damageFromPlayer;
-
-        //Colorchange changepls = GetComponent<Colorchange>();
-        //changepls.PlayEffect();
-
-        healthBar.UpdateHealthBar(currentHp, maxHp);
-        if (currentHp <= 0)
+        if (Random.Range(0, 100) < droprateItem1)
         {
-            if (Random.Range(0, 100) < droprateItem1)
-            {
-                Instantiate(itemdrop, transform.position, transform.rotation);
-            }
-            if (Random.Range(0, 100) < droprateItem2)
-            {
-                Instantiate(itemdrop2, transform.position, transform.rotation);
-            }
-
-            //Destroy(gameObject);
-            Debug.Log("1 KILL");
-
-            Player player = GameObject.FindFirstObjectByType<Player>();
-            player.AddScore();
-
-            gameObject.SetActive(false);
-
+            Instantiate(itemdrop, transform.position, transform.rotation);
         }
-    }
-    /*void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == ("Bullet"))
+        if (Random.Range(0, 100) < droprateItem2)
         {
-            Colorchange changepls = GetComponent<Colorchange>();
-            changepls.PlayEffect();
+            Instantiate(itemdrop2, transform.position, transform.rotation);
         }
-    }*/
 
+        //Destroy(gameObject);
+        Debug.Log("1 KILL");
+
+        Player player = GameObject.FindObjectOfType<Player>();
+        player?.AddScore();
+
+        gameObject.SetActive(false);
     }
+}

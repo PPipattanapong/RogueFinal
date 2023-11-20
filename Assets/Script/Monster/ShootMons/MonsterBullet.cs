@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterBullet : MonoBehaviour
@@ -7,32 +5,36 @@ public class MonsterBullet : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private Rigidbody2D rg2d;
     [SerializeField] private float moveSpeed;
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        rg2d = GetComponent<Rigidbody2D>();
-        player = GameObject.Find("Player");
-
-        Vector3 direction = (player.transform.position
-- transform.position).normalized;
-
-        rg2d.velocity = new Vector2(direction.x, direction.y) * moveSpeed;
+        InitializeBulletMovement();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+
     }
-    void OnTriggerEnter2D(Collider2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == ("Player"))
+        if (other.CompareTag("Player"))
         {
             Destroy(gameObject);
         }
     }
-    void OnBecameInvisible()
+
+    private void OnBecameInvisible()
     {
         Destroy(gameObject);
+    }
+
+    private void InitializeBulletMovement()
+    {
+        rg2d = GetComponent<Rigidbody2D>();
+        player = GameObject.Find("Player");
+
+        Vector3 direction = (player.transform.position - transform.position).normalized;
+        rg2d.velocity = new Vector2(direction.x, direction.y) * moveSpeed;
     }
 }

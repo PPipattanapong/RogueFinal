@@ -11,10 +11,4 @@ public class HpBarPlayer : MonoBehaviour
     {
         slider.value = currentp1Value / maxp1Value;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

@@ -8,16 +8,12 @@ public class ScoreText : MonoBehaviour
     [SerializeField] private TMP_Text text;
     [SerializeField] private Player player;
 
-    //PlayerController player;
-
-    void Start()
+    private void Update()
     {
-        //text = GetComponent<TMP_Text>();
-
-        //player = GameObject.FindFirstObjectByType<PlayerController>();
+        UpdateScoreText();
     }
 
-    void Update()
+    private void UpdateScoreText()
     {
         text.text = player.GetScore().ToString();
     }

@@ -1,27 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Power2 : MonoBehaviour
 {
     [SerializeField] private int bulletAttack;
-    // Start is called before the first frame update
-    void Start()
-    {
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        HandleCollision(other);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void HandleCollision(Collider2D other)
     {
-
-    }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == ("Enemy"))
+        if (other.CompareTag("Enemy"))
         {
             MonsterHP monsterHP = other.GetComponent<MonsterHP>();
-            monsterHP.MonsterTakeDamage(bulletAttack);
+            monsterHP?.MonsterTakeDamage(bulletAttack);
         }
     }
 }

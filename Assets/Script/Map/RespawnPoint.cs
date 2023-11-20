@@ -5,24 +5,11 @@ using UnityEngine;
 
 public class RespawnPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.tag == "Player")
         {
             PlayerHP hp = col.gameObject.GetComponent<PlayerHP>();
-            //  transform.position  << place of respawn location
             hp.respawnPoint = transform.position;
         }
         

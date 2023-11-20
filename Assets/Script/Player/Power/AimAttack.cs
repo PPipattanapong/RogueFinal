@@ -3,51 +3,59 @@ using UnityEngine;
 
 public class AimAttack : MonoBehaviour
 {
-    public GameObject aim;
-    public GameObject bullet;
-    public GameObject firepoint;
-    public float reloadTime = 2f;
-    public int shotsBeforeReload = 10;
+    [SerializeField] private GameObject aim;
+    [SerializeField] private GameObject bullet;
+    [SerializeField] private GameObject firepoint;
+    [SerializeField] private float reloadTime = 2f;
+    [SerializeField] private int shotsBeforeReload = 10;
 
     private int shotCount = 0;
     private bool isReloading = false;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
+    {
+        HandleAimRotation();
+        HandleShooting();
+    }
+
+    private void HandleAimRotation()
     {
         Vector3 mousePos = Input.mousePosition;
         Vector3 screenPoint = Camera.main.WorldToScreenPoint(transform.localPosition);
-
         float angle = Mathf.Atan2((mousePos.y - screenPoint.y), (mousePos.x - screenPoint.x)) * Mathf.Rad2Deg;
 
         aim.transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
 
-        /*if (mousePos.x >= screenPoint.x)
+    private void HandleShooting()
+    {
+        if (Input.GetMouseButtonDown(0) && !isReloading)
         {
-            aim.SetActive(true); // Show the aim when on the right side
-        }
-        else
-        {
-            aim.SetActive(false); // Hide the aim when on the left side
-        }*/
-
-        if (Input.GetMouseButtonDown(0) && !isReloading /*&& mousePos.x >= screenPoint.x*/)
-        {
-            Instantiate(bullet, firepoint.transform.position, aim.transform.rotation);
-            shotCount++;
-
-            if (shotCount >= shotsBeforeReload)
-            {
-                StartCoroutine(Reload());
-            }
+            FireBullet();
         }
     }
 
-    IEnumerator Reload()
+    private void FireBullet()
+    {
+        Instantiate(bullet, firepoint.transform.position, aim.transform.rotation);
+        shotCount++;
+
+        if (shotCount >= shotsBeforeReload)
+        {
+            StartCoroutine(Reload());
+        }
+    }
+
+    private IEnumerator Reload()
     {
         isReloading = true;
         yield return new WaitForSeconds(reloadTime);
         isReloading = false;
-        shotCount = 0; // Reset the shot count
+        ResetShotCount();
+    }
+
+    private void ResetShotCount()
+    {
+        shotCount = 0;
     }
 }

@@ -1,32 +1,51 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerBullet : MonoBehaviour
 {
-
     [SerializeField] private Rigidbody2D rg2d;
     [SerializeField] private float bulletSpeed = 5f;
-
     [SerializeField] private int bulletAttack = 5;
-    void Start()
+
+    private void Start()
+    {
+        InitializeComponents();
+    }
+
+    private void Update()
+    {
+        MoveBullet();
+    }
+
+    private void InitializeComponents()
     {
         rg2d = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    private void MoveBullet()
     {
         rg2d.velocity = transform.right * bulletSpeed;
     }
-    void OnTriggerEnter2D(Collider2D other)
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == ("Enemy"))
+        HandleCollision(other);
+    }
+
+    private void HandleCollision(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
         {
             MonsterHP monsterHP = other.GetComponent<MonsterHP>();
-            monsterHP.MonsterTakeDamage(bulletAttack);
+            monsterHP?.MonsterTakeDamage(bulletAttack);
         }
     }
-    void OnBecameInvisible()
+
+    private void OnBecameInvisible()
+    {
+        DestroyBullet();
+    }
+
+    private void DestroyBullet()
     {
         Destroy(gameObject);
     }

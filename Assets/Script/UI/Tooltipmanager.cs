@@ -7,7 +7,7 @@ public class Tooltipmanager : MonoBehaviour
 {
     public static Tooltipmanager _instance;
 
-    public TextMeshProUGUI textComponent;
+    [SerializeField] private TextMeshProUGUI textComponent;
 
     private void Awake()
     {
@@ -20,14 +20,12 @@ public class Tooltipmanager : MonoBehaviour
             _instance = this;
         }
     }
-    // Start is called before the first frame update
     void Start()
     {
         Cursor.visible = true;
         gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = Input.mousePosition;

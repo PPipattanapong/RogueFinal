@@ -4,31 +4,34 @@ using TMPro;
 
 public class CountAmmo : MonoBehaviour
 {
-    public TextMeshProUGUI countdownText;
-    public float reloadTime = 2f;
+    [SerializeField] private TextMeshProUGUI countdownText;
+    [SerializeField] private float reloadTime = 2f;
 
     private int count = 10;
     private bool isReloading = false;
 
-    void Start()
+    private void Start()
     {
         UpdateCountdownText();
     }
 
-    void UpdateCountdownText()
+    private void UpdateCountdownText()
     {
         countdownText.text = count.ToString();
     }
 
-    void Update()
+    private void Update()
     {
-        // Check if the mouse position is on the right side of the screen
-        if (Input.GetMouseButtonDown(0) && !isReloading /*&& Input.mousePosition.x > Screen.width / 2*/)
+        HandleShootingInput();
+    }
+
+    private void HandleShootingInput()
+    {
+        if (Input.GetMouseButtonDown(0) && !isReloading)
         {
             if (count > 0)
             {
-                count--;
-                UpdateCountdownText();
+                Shoot();
             }
             else
             {
@@ -37,12 +40,23 @@ public class CountAmmo : MonoBehaviour
         }
     }
 
-    IEnumerator Reload()
+    private void Shoot()
+    {
+        count--;
+        UpdateCountdownText();
+    }
+
+    private IEnumerator Reload()
     {
         isReloading = true;
         yield return new WaitForSeconds(reloadTime);
         isReloading = false;
-        count = 10; // Reset the countdown
+        ResetAmmo();
+    }
+
+    private void ResetAmmo()
+    {
+        count = 10;
         UpdateCountdownText();
     }
 }

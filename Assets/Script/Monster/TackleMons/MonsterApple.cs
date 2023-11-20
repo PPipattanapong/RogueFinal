@@ -1,50 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MonsterApple : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     [SerializeField] private Rigidbody2D rg2d;
-    [SerializeField] private float moveSpeed;
-
     [SerializeField] private Animator anim;
     [SerializeField] private bool playerDetect;
+    [SerializeField] private float moveSpeed;
     [SerializeField] private float playerDetectRange;
     [SerializeField] private LayerMask playerLayerMask;
 
-    void Start()
+    private void Start()
+    {
+        InitializeVariables();
+    }
+
+    private void Update()
+    {
+        UpdateMovement();
+        UpdatePlayerDetection();
+    }
+
+    private void InitializeVariables()
     {
         rg2d = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player");
         anim = GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void UpdateMovement()
     {
-        Vector3 direction = (player.transform.position
-            - transform.position).normalized;
-
+        Vector3 direction = (player.transform.position - transform.position).normalized;
         rg2d.velocity = new Vector2(direction.x, direction.y) * moveSpeed;
-
-        playerDetect = Physics2D.OverlapCircle
-            (transform.position, playerDetectRange, playerLayerMask);
-
-        if (playerDetect == true)
-        { 
-                anim.SetBool("Idle", true);
     }
+
+    private void UpdatePlayerDetection()
+    {
+        playerDetect = Physics2D.OverlapCircle(transform.position, playerDetectRange, playerLayerMask);
+
+        if (playerDetect)
+        {
+            anim.SetBool("Idle", true);
+        }
         else
         {
             anim.SetBool("Idle", false);
         }
     }
-    void OnDrawGizmos()
+
+    private void OnDrawGizmos()
     {
-        if (playerDetect) { Gizmos.color = Color.red; }
-        else { Gizmos.color = Color.white; }
-        
+        Gizmos.color = playerDetect ? Color.red : Color.white;
         Gizmos.DrawWireSphere(transform.position, playerDetectRange);
     }
 }

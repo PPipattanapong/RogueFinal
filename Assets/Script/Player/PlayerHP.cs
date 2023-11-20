@@ -22,14 +22,12 @@ public class PlayerHP : MonoBehaviour
 
     [SerializeField] private Transform hpBar;
 
-    // Start is called before the first frame update
     void Start()
     {
         currentHp = maxHp;
         respawnPoint = Vector3.zero;
     }
 
-    // Update is called once per frame
     void Update()
     {
         hpBar.localScale = new Vector3(currentHp / maxHp, hpBar.localScale.y,
@@ -40,9 +38,6 @@ public class PlayerHP : MonoBehaviour
         currentHp -= damageFromMonster;
         if (currentHp <= 0)
         {
-            //gameObject.SetActive(false);
-            //transform.position = respawnPoint;
-            //currentHp = maxHp;
             SceneManager.LoadScene(6);
             Skill1.SetActive(false);
             Skill2.SetActive(false);

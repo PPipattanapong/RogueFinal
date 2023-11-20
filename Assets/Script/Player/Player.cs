@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Player : MonoBehaviour
 {
-    private Rigidbody2D rg2d;
-    private Vector2 velocity;
+    [SerializeField] private Rigidbody2D rg2d;
+    [SerializeField] private Vector2 velocity;
     [SerializeField] private int score = 0;
 
     public void AddScore()
@@ -17,15 +17,14 @@ public class Player : MonoBehaviour
         return score;
     }
 
-    void Start()
+    [SerializeField] private void Start()
     {
         rg2d = GetComponent <Rigidbody2D>();
     }
-    void Update()
+    [SerializeField] private void Update()
     {
         velocity = new Vector2(Input.GetAxisRaw
          ("Horizontal"), Input.GetAxisRaw("Vertical"));
-
     }
 }
 

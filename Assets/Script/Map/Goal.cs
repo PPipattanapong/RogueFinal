@@ -11,7 +11,6 @@ public class Goal : MonoBehaviour
         {
             Debug.Log("Next Level");
 
-            // Check if the current scene is "Scene1" before loading "Scene3"
             if (SceneManager.GetActiveScene().name == "Level1")
             {
                 SceneManager.LoadScene("Level2");

@@ -5,37 +5,55 @@ using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour
 {
-    [SerializeField] private static bool GamePause = false;
     [SerializeField] private GameObject pauseUI;
+    [SerializeField] private static bool gamePaused = false;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (GamePause)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            TogglePause();
         }
-        
     }
+
     public void Resume()
     {
-        pauseUI.SetActive(false);
-        Time.timeScale = 1f;
-        GamePause = false;
+        SetPauseUIActive(false);
+        SetTimeScale(1f);
+        gamePaused = false;
     }
+
     public void Pause()
     {
-        pauseUI.SetActive(true);
-        Time.timeScale = 0f;
-        GamePause = true;
+        SetPauseUIActive(true);
+        SetTimeScale(0f);
+        gamePaused = true;
     }
+
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    private void TogglePause()
+    {
+        if (gamePaused)
+        {
+            Resume();
+        }
+        else
+        {
+            Pause();
+        }
+    }
+
+    private void SetPauseUIActive(bool isActive)
+    {
+        pauseUI.SetActive(isActive);
+    }
+
+    private void SetTimeScale(float scale)
+    {
+        Time.timeScale = scale;
     }
 }
