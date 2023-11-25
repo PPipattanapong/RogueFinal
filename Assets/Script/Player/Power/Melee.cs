@@ -27,17 +27,26 @@ public class Melee : MonoBehaviour
 
     private void UpdateLifetime()
     {
-        lifetime -= Time.deltaTime;
-
-        if (lifetime <= 0)
+        if (energy.activeSelf)
         {
-            energy.SetActive(false);
+            lifetime -= Time.deltaTime;
+
+            if (lifetime <= 0)
+            {
+                energy.SetActive(false);
+                ResetLifetime();
+            }
         }
     }
 
     private void ResetCooldown()
     {
         cooldown = cooldownSet;
+    }
+
+    private void ResetLifetime()
+    {
+        lifetime = 3.5f;
     }
 
     private void ActivateEnergy()
