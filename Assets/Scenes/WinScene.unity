@@ -244,7 +244,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -369,12 +369,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354406064}
   m_LocalRotation: {x: -0, y: -0, z: 0.72624177, w: 0.6874394}
-  m_LocalPosition: {x: -4.8, y: -2.92, z: 0}
+  m_LocalPosition: {x: -3.418892, y: -3.2793303, z: -3.9043303}
   m_LocalScale: {x: 0.7263, y: 0.7263, z: 0.7263}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1571818130}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 93.144}
 --- !u!1 &421112825
 GameObject:
@@ -756,12 +756,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602177186}
   m_LocalRotation: {x: -0, y: -0, z: -0.12183369, w: 0.9925506}
-  m_LocalPosition: {x: 5.2043, y: -2.9389, z: 0}
-  m_LocalScale: {x: 0.7139, y: 0.7139, z: 0.7139}
+  m_LocalPosition: {x: 6.585408, y: -3.2982302, z: -3.9043303}
+  m_LocalScale: {x: 0.71389997, y: 0.71389997, z: 0.7139}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1571818130}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.996}
 --- !u!1 &683746071
 GameObject:
@@ -6066,6 +6066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894378138}
   - component: {fileID: 894378137}
+  - component: {fileID: 894378139}
   m_Layer: 0
   m_Name: Farmer 0_7
   m_TagString: Untagged
@@ -6140,6 +6141,26 @@ Transform:
   m_Father: {fileID: 1571818130}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &894378139
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894378136}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc677d425fb42fc46bd39ce6e96ed260, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &908259254
 GameObject:
   m_ObjectHideFlags: 0
@@ -6351,12 +6372,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972775519}
   m_LocalRotation: {x: -0, y: -0, z: 0.99989736, w: -0.014326642}
-  m_LocalPosition: {x: -6.8125, y: 3.5246, z: 0}
+  m_LocalPosition: {x: -5.4313917, y: 3.1652699, z: -3.9043303}
   m_LocalScale: {x: 0.7713, y: 0.7713, z: 0.7713}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1571818130}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 181.642}
 --- !u!1 &997144324
 GameObject:
@@ -6468,12 +6489,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997947323}
   m_LocalRotation: {x: -0, y: -0, z: -0.9943219, w: 0.106414996}
-  m_LocalPosition: {x: 6.14, y: 3.51, z: 0}
+  m_LocalPosition: {x: 7.521108, y: 3.1506698, z: -3.9043303}
   m_LocalScale: {x: 0.574, y: 0.574, z: 0.574}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1571818130}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -167.783}
 --- !u!1 &1052954495
 GameObject:
@@ -11732,6 +11753,10 @@ Transform:
   - {fileID: 683746073}
   - {fileID: 1897258150}
   - {fileID: 1427485485}
+  - {fileID: 354406066}
+  - {fileID: 602177188}
+  - {fileID: 972775521}
+  - {fileID: 997947325}
   m_Father: {fileID: 1164351074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11745,6 +11770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1642975004}
   - component: {fileID: 1642975003}
+  - component: {fileID: 1642975005}
   m_Layer: 0
   m_Name: Farmer 0_7 (1)
   m_TagString: Untagged
@@ -11819,6 +11845,26 @@ Transform:
   m_Father: {fileID: 1571818130}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1642975005
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642975002}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc677d425fb42fc46bd39ce6e96ed260, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1861536788
 GameObject:
   m_ObjectHideFlags: 0

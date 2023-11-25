@@ -5282,6 +5282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 322340598}
   - component: {fileID: 322340597}
+  - component: {fileID: 322340599}
   m_Layer: 0
   m_Name: CultistPack_7
   m_TagString: Untagged
@@ -5349,13 +5350,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322340596}
   m_LocalRotation: {x: -0, y: -0, z: 0.2814116, w: 0.9595872}
-  m_LocalPosition: {x: -6.4335356, y: -2.264422, z: 0}
+  m_LocalPosition: {x: -5.0524273, y: -2.623752, z: -3.9043303}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1955317490}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 32.689}
+--- !u!95 &322340599
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322340596}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &362710010
 GameObject:
   m_ObjectHideFlags: 0
@@ -10740,6 +10761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1033517206}
   - component: {fileID: 1033517205}
+  - component: {fileID: 1033517207}
   m_Layer: 0
   m_Name: CultistPack_42
   m_TagString: Untagged
@@ -10806,14 +10828,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033517204}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.91, y: -3.0225, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.291108, y: -3.3818302, z: -3.9043303}
   m_LocalScale: {x: 1.2097, y: 1.2097, z: 1.2097}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1955317490}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1033517207
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033517204}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1081209813
 GameObject:
   m_ObjectHideFlags: 0
@@ -11075,6 +11117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1243740116}
   - component: {fileID: 1243740115}
+  - component: {fileID: 1243740117}
   m_Layer: 0
   m_Name: CultistPack_36
   m_TagString: Untagged
@@ -11141,14 +11184,34 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1243740114}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.77, y: 2.24, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.3888917, y: 1.8806698, z: -3.9043303}
   m_LocalScale: {x: 1.2155477, y: 1.2155477, z: 1.2155477}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1955317490}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1243740117
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243740114}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1486771913
 GameObject:
   m_ObjectHideFlags: 0
@@ -11505,7 +11568,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -11583,6 +11646,10 @@ Transform:
   m_Children:
   - {fileID: 1486771915}
   - {fileID: 362710012}
+  - {fileID: 322340598}
+  - {fileID: 2105663351}
+  - {fileID: 1033517206}
+  - {fileID: 1243740116}
   m_Father: {fileID: 1081209814}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11640,6 +11707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105663351}
   - component: {fileID: 2105663350}
+  - component: {fileID: 2105663352}
   m_Layer: 0
   m_Name: CultistPack_37
   m_TagString: Untagged
@@ -11707,13 +11775,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105663349}
   m_LocalRotation: {x: -0, y: -0, z: -0.144028, w: 0.98957366}
-  m_LocalPosition: {x: 5.67, y: 2.36, z: 0}
-  m_LocalScale: {x: 1.3413, y: 1.3413, z: 1.3413}
+  m_LocalPosition: {x: 7.0511084, y: 2.0006697, z: -3.9043303}
+  m_LocalScale: {x: 1.3413001, y: 1.3413001, z: 1.3413}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1955317490}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.562}
+--- !u!95 &2105663352
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105663349}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2116326701
 GameObject:
   m_ObjectHideFlags: 0
